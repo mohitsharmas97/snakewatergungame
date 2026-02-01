@@ -26,7 +26,7 @@ def game():
         user_choice = reverse_dict[you]
         computer_choice = reverse_dict[computer]
         
-        # Game logic
+        # Game logics
         if computer == you:
             result = "It's a Draw!"
         elif (computer == -1 and you == 1) or \
@@ -42,3 +42,4 @@ def game():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
